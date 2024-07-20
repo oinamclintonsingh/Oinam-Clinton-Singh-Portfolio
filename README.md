@@ -14,7 +14,6 @@ Hi, I'm Oinam Clinton Singh, a seasoned website developer whose passion for tech
 
 If you're interested in my services, you can contact me for more information.
 
-![Passport photo of Oinam Clinton Singh](path/to/passport_photo.jpg)
 
 ## Education
 
@@ -59,19 +58,19 @@ I am always at the forefront of technological advancements. Incorporating the la
 
 AAA (Assure Asset Advisory Pvt. Ltd.) is the first wealth management company in Manipur, run and managed by industry-experienced professionals. It was incorporated in August 2016 and registered under MCA (Ministry of Corporate Affairs).
 
-[Check Out](https://example.com)
+
 
 ### PortalEra
 
 PortalEra is a cutting-edge website development company. We strive to create impactful digital experiences that elevate your brand and drive business growth. PortalEra is committed to transforming digital landscapes through innovative web solutions.
 
-[Check Out](https://example.com)
+
 
 ### Learn Meitei Mayek Language
 
 The website features the Meitei Mayek script, the ancient and traditional script of the Manipuri language. With a simple click, you can hear the pronunciation of each letter, making it easy to learn and practice.
 
-[Check Out](https://example.com)
+
 
 ## Contact Me
 
@@ -83,15 +82,15 @@ If you have any questions or would like to work with me, please feel free to rea
 - **Subject**
 - **Your Message**
 
-[SEND MESSAGE](https://example.com)
+
 
 ## Navigation
 
 - [Home](https://oinamclintonsingh.github.io/Oinam-Clinton-Singh-Portfolio/)
-- [Education](https://oinamclintonsingh.github.io/Oinam-Clinton-Singh-Portfolio/education)
-- [Services](https://oinamclintonsingh.github.io/Oinam-Clinton-Singh-Portfolio/services)
-- [Projects](https://oinamclintonsingh.github.io/Oinam-Clinton-Singh-Portfolio/project)
-- [Contact](https://oinamclintonsingh.github.io/Oinam-Clinton-Singh-Portfolio/contact)
+- [Education](https://oinamclintonsingh.github.io/Oinam-Clinton-Singh-Portfolio/#Education)
+- [Services](https://oinamclintonsingh.github.io/Oinam-Clinton-Singh-Portfolio/#Services)
+- [Projects](https://oinamclintonsingh.github.io/Oinam-Clinton-Singh-Portfolio/#Project)
+- [Contact](https://oinamclintonsingh.github.io/Oinam-Clinton-Singh-Portfolio/#Contact)
 
 ---
 
