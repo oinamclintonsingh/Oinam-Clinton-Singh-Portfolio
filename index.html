@@ -13,21 +13,22 @@
 <body>
     <header class="header">
         <a href="#" class="logo"> Oinam <span>Clinton</span> Singh </a>
-        <div class="menu">
-            <i class="fa fa-bars" aria-hidden="true" id="menu-icon"></i>
-        <i class="fa fa-times" aria-hidden="true" id="close-icon" style="display:none;"></i>
+        <div class="arangbam">
+            <i class="fa fa-bars" aria-hidden="true" id="arangbam-icon"></i>
+            <i class="fa fa-times" aria-hidden="true" id="khumjanba-icon" style="display:none;"></i>
         </div>
-        <nav class="navbar">
-            <a href="#Home">home</a>
-            <a href="#Education">education</a>
-            <a href="#Services">services</a>
-            <a href="#Project">Project</a>
-            <a href="#Contact">contact</a>
+        <nav class="dari">
+            <a href="#Mamai">Home</a>
+            <a href="#Lairik-Laisu">Education</a>
+            <a href="#Ehei">Services</a>
+            <a href="#Thougai">Project</a>
+            <a href="#Pao-Faopham">Contact</a>
         </nav>
     </header>
-
-    <section class="home" id="Home">
-        <div class="content">
+<!-- **********************************************-->
+<!-- Mamai -->
+    <section class="mamai" id="Mamai">
+        <div class="upu">
             <h1>hi, it's <span>Oinam Clinton Singh</span></h1>
             <h3 class="text-animation">I'm a <span></span></h3>
             <p>
@@ -45,14 +46,15 @@
                 <a href="#" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a> -->
             </div>
             <div class="flex-btn">
-                <a href="#Contact" class="btn hire">hire</a>
-                <a href="#Contact" class="btn">contact</a>
+                <a href="#Pao-Faopham" class="btn hire">hire</a>
+                <a href="#Pao-Faopham" class="btn">contact</a>
             </div>
         </div>
         <img src="./assets/images/Passport_round_02.png" alt="Passport photo od Oinam Clinton Singh">
     </section>
-
-    <section class="education" id="Education">
+<!-- **********************************************-->
+<!-- Mahei -->
+    <section class="mahei" id="Lairik-Laisu">
         <h2 class="heading">education</h2>
         <div class="timeline-items">
             <div class="timeline-item">
@@ -106,8 +108,9 @@
             </div>
         </div>
     </section>
-
-    <section class="services" id="Services">
+<!-- **********************************************-->
+<!-- Ehei -->
+    <section class="eina-heijaba" id="Ehei">
         <h2 class="heading">What I do!!!</h2>
         <div class="box-container">
             <div class="box">
@@ -136,8 +139,9 @@
             </div>
         </div>
     </section>
-
-    <section class="testimonials" id="Project">
+<!-- **********************************************-->
+<!-- Thoudang -->
+    <section class="ethoudang" id="Thougai">
         <h2 class="heading">Projects</h2>
         <div class="box-container">
             <div class="box">
@@ -153,7 +157,7 @@
                 <p>
                     AAA (Assure Asset Advisory Pvt. Ltd.) is the first wealth management company in Manipur, run and managed by industry well exposured & experienced professionals. It is incorporated in August 2016 and registered under MCA (Ministry of Corporate Affairs).
                 </p>
-                <button><a href="https://aaafincorp.com/">Check Out</a></button>
+                <button class="nampham"><a href="https://aaafincorp.com/">Check Out</a></button>
             </div>
 
             <div class="box">
@@ -169,7 +173,7 @@
                 <p>
                     PortalEra is a cutting-edge website development company. We strive to create impactful digital experiences that elevate your brand and drive business growth. PortalEra is committed to transforming digital landscapes through innovative web solutions.
                 </p>
-                <button><a href="https://www.portalera.com/">Check Out</a></button>
+                <button class="nampham"><a href="https://www.portalera.com/">Check Out</a></button>
             </div>
 
             <div class="box">
@@ -185,29 +189,36 @@
                 <p>
                     The website features the Meitei Mayek script, which is the ancient and traditional script of the Manipuri language. With a simple click, you can hear the pronunciation of each letter, making it easy to learn and practice.
                 </p>
-                <button><a href="https://oinamclintonsingh.github.io/Meitei-Mayek/">Check Out</a></button>
+                <button class="nampham"><a href="https://oinamclintonsingh.github.io/Meitei-Mayek/">Check Out</a></button>
             </div>
         </div>
     </section>
-
-    <section class="contact" id="Contact">
-        <h2 class="heading">contact <span>me</span></h2>
+<!-- **********************************************-->
+<!-- Pao Phaonpham -->
+    <section class="poa-phaopham" id="Pao-Faopham">
+        <h2 class="heading"> Contact <span>me</span></h2>
         <div class="form-container">
             <form action="#" method="get">
                 <div class="inputs">
-                    <input type="text" placeholder="full name" class="input">
-                    <input type="email" placeholder="email" class="input">
-                    <input type="number" placeholder="phone number" class="input">
-                    <input type="text" placeholder="subject" class="input">
+                    <label class="label" for="Name">Name</label>
+                    <input id="usergee-ming" type="text" placeholder="Enter your full name" class="input">
+                    <label class="label" for="Email">Email</label>
+                    <input id="usergee-email" type="email" placeholder="Enter you email" class="input">
+                    <label class="label" for="Phone-Number">Phone Number</label>
+                    <input id="usergee-phone-number" type="number" placeholder="Enter your phone number" class="input">
+                    <label class="label" for="subject">Subject</label>
+                    <input id="usergee-subject" type="subject" placeholder="Enter your Subject" class="input">
                 </div>
                 <div class="text">
-                    <textarea placeholder="your message"></textarea>
-                    <a href="#" class="btn"> send message </a>
+                    <label class="label" for="Name">Message </label>
+                    <textarea autocomplete="off" class="input" id="usergee-message" placeholder="Enter your Message"></textarea>
+                    <a type="subject" class="btn"> send message </a>
                 </div>
             </form>
         </div>
     </section>
-
+<!-- **********************************************-->
+<!-- Loisinfam -->
     <footer class="footer">
         <div class="icons">
             <a href="https://www.facebook.com/clinton.oinam" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
@@ -217,12 +228,12 @@
            <!-- <a href="#" target="_blank"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
                 <a href="#" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a> -->
         </div>
-        <nav class="navbar">
-            <a href="#Home">home</a>
-            <a href="#Education">education</a>
-            <a href="#Services">services</a>
-            <a href="#Project">Project</a>
-            <a href="#Contact">contact</a>
+        <nav class="dari">
+            <a href="#Mamai">Home</a>
+            <a href="#Lairik-Laisu">Education</a>
+            <a href="#Ehei">Services</a>
+            <a href="#Thougai">Project</a>
+            <a href="#Pao-Faopham">Contact</a>
         </nav>
         <div class="credit"><p> Copyright <i class="fa fa-copyright" aria-hidden="true"></i>2024 by <span> Oinam Clinton Singh </span> All rights
                 reserved</p>
