@@ -586,24 +586,38 @@ section {
     width: 100%;
 }
 
-.poa-phaopham .form-container form {
+form {
     display: flex;
     align-items: start;
     justify-content: center;
-    gap: 1rem;
-    padding: 2rem;
     width: 100%;
+    
+
 }
 
-.poa-phaopham .form-container form .inputs,
-.poa-phaopham .form-container form .text {
+form .inputs, form .text {
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    width: 49%;
+    width: 50%;
+
 }
+
+form .inputs {
+    width: 50%;
+    align-items: end;
+}
+
+.name, .email, .phone-number,
+.subject, .message {
+    width: 80%;
+    padding-bottom: 1rem;
+}
+
+form .text {
+    width: 50%;
+}
+
 
 .poa-phaopham .form-container form .inputs .input,
 .poa-phaopham .form-container form .text input,
@@ -612,17 +626,12 @@ section {
     border: none;
     padding: 1rem;
     border-radius: 1rem;
-    width: 90%;
+    width: 100%;
     border: .1rem solid var(--main-color);
     outline: none;
     color: var(--text-color);
     font-size: 1.5rem;
     text-transform: capitalize;
-}
-
-.poa-phaopham .form-container form .inputs .input,
-.poa-phaopham .form-container form .text input {
-    margin-bottom: 1rem;
 }
 
 .label {
@@ -636,6 +645,19 @@ section {
 .poa-phaopham .form-container form .text textarea {
     height: 15rem;
     resize: none;
+}
+
+.error-text {
+    font-size: 14.5px;
+    color: #d93025;
+    text-align: left;
+    margin: 0 10px 0;
+    display: none;
+}
+
+.yaga.error .error-text {
+    display: block;
+
 }
 
 .poa-phaopham .form-container form .text .btn {
@@ -731,7 +753,7 @@ section {
 
 /*********************************************************/
 /* Mobile View */
-@media (max-width:700px) {
+@media screen and (max-width: 767px){
     html {
         font-size: 50.5%;
     }
@@ -846,6 +868,20 @@ section {
         padding-left: 60px;
     }
 
+    form {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    form .inputs,
+    form .text {
+        align-items: center;
+        width: 90%;
+    }
+
 }
 
 /***********************************************************************/
@@ -877,5 +913,5 @@ section {
     .poa-phaopham {
         padding: 1rem 0;
     }
-    
+
 } */
