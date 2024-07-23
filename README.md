@@ -2,7 +2,7 @@
 
 Welcome to my portfolio website! This repository contains the code for my personal portfolio website. Here you can explore my work, education, and the services I offer. Feel free to contact me for more information.
 
-![image text] (https://github.com/oinamclintonsingh/Oinam-Clinton-Singh-Portfolio/blob/98caee12438599e5fd5e8a4edc69690f0b7129c5/assets/images/Oinam-Clinton-Singh-Portfolio.png)
+![Alt text] (https://github.com/oinamclintonsingh/Oinam-Clinton-Singh-Portfolio/blob/98caee12438599e5fd5e8a4edc69690f0b7129c5/assets/images/Oinam-Clinton-Singh-Portfolio.png)
 ![alt text] (The screen shoots of Oinam Clinton Singh Portfolio website)
 
 ## Website
