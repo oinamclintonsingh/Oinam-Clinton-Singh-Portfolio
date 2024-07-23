@@ -4,7 +4,7 @@ Welcome to my portfolio website! This repository contains the code for my person
 
 ![Alt text](https://github.com/oinamclintonsingh/Oinam-Clinton-Singh-Portfolio/blob/98caee12438599e5fd5e8a4edc69690f0b7129c5/assets/images/Oinam-Clinton-Singh-Portfolio.png)
 
-![Alt text](https://github.com/oinamclintonsingh/Oinam-Clinton-Singh-Portfolio/blob/7546b48897a000eb17290c62afb4f7b09f30a5f5/assets/images/Oinam-Clinton-Singh-Portfolio.png))
+![Alt text][(https://github.com/oinamclintonsingh/Oinam-Clinton-Singh-Portfolio/blob/7546b48897a000eb17290c62afb4f7b09f30a5f5/assets/images/Oinam-Clinton-Singh-Portfolio.png))](https://github.com/oinamclintonsingh/Oinam-Clinton-Singh-Portfolio/blob/7546b48897a000eb17290c62afb4f7b09f30a5f5/assets/images/Oinam-Clinton-Singh-Portfolio.png)
 
 
 ## Website
